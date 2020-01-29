@@ -1,0 +1,65 @@
+.table_container {
+    margin: 0 auto;
+    width: 1051px;
+}
+
+.table_filter {
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+
+.table_filter input {
+    margin-left: 10px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+thead th {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    border: none;
+}
+thead :nth-child(1) {
+    text-align: center;
+}
+thead :nth-child(2) {
+    width: 9%
+}
+thead :nth-child(3) {
+    width: 60%
+}
+thead :nth-child(4) {
+    width: 20%
+}
+
+tbody tr :first-child {
+    text-align: center;
+}
+
+tbody tr td input[type='checkbox'] {
+    border: 50px solid red;
+    padding: 50px;
+}
+
+tr {
+    transition: background .3s linear;
+}
+tr:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+td {
+    border-right: 1px dashed #eee;
+    border-bottom: 1px solid #eee;
+    padding: 5px 10px;
+}
